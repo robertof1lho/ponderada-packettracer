@@ -3,6 +3,7 @@
 Link do vídeo: [aqui](https://drive.google.com/file/d/1rociQAoOX-zfoKBeVIBAtLePcOok0tuW/view?usp=sharing)
 
 Parte 1:
+
 a) Por que todos os nós recebem o quadro inicialmente dentro de um hub?
 
 Porque o hub não consegue identificar para qual dispositivo o quadro deve ir. Ele apenas recebe o sinal e retransmite para todas as máquinas conectadas. Assim, todos os nós recebem o quadro, mas só o destinatário correto o aceita.
@@ -12,6 +13,8 @@ b) Explique como isso se relaciona ao conceito de meio compartilhado com desempe
 Isso acontece porque, no hub, todos os dispositivos compartilham o mesmo meio físico de transmissão. Ou seja, todos usam o mesmo canal para enviar dados. Na prática, isso pode causar colisões quando dois dispositivos tentam transmitir ao mesmo tempo, o que reduz o desempenho da rede e gera retransmissões.
 
 ![Simulação do Hub](assets/simulacao_hub.png)
+
+---
 
 Parte 2:
 a) Compare o fluxo do sinal elétrico no switch versus hub.
