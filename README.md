@@ -11,7 +11,7 @@ b) Explique como isso se relaciona ao conceito de meio compartilhado com desempe
 
 Isso acontece porque, no hub, todos os dispositivos compartilham o mesmo meio físico de transmissão. Ou seja, todos usam o mesmo canal para enviar dados. Na prática, isso pode causar colisões quando dois dispositivos tentam transmitir ao mesmo tempo, o que reduz o desempenho da rede e gera retransmissões.
 
-![Simulação do Hub](assets/simulacao-hub.png)
+![Simulação do Hub](assets/simulacao_hub.png)
 
 Parte 2:
 a) Compare o fluxo do sinal elétrico no switch versus hub.
@@ -32,4 +32,4 @@ Não totalmente. Os dispositivos continuam ligados na mesma rede física, mas o 
 
 Diferente do hub, o switch não retransmite tudo para todos. Ele analisa o endereço MAC de destino e encaminha o quadro somente para o dispositivo correto, tornando a rede mais eficiente.
 
-![Simulação do Switch](assets/simulacao-switch.png)
+![Simulação do Switch](assets/simulacao_switch.png)
